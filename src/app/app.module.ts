@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UnderlineComponent } from './ui-button/underline/underline.component';
+import { BoldComponent } from './ui-button/bold/bold.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UnderlineComponent,
+    BoldComponent
   ],
   imports: [
     BrowserModule,
